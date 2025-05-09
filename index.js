@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits, Partials } = require("discord.js");
 const fs = require("fs");
 const { keepAlive } = require("./keep_alive");
-keepAlive();
+
 
 const client = new Client({
   intents: [
